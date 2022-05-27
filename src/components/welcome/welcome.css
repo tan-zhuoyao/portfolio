@@ -2,9 +2,21 @@
   background-image: url("../../assets/profile.png")
 }
 
-/* mobile view */
-@media (max-width: 760px) {
+/* tablet view */
+@media (max-width: 1160px) {
+  .welcome {
+    background-image: url("../../assets/profile_tablet.png")
+  }
+}
+
+@media (max-width: 1060px) {
   .welcome {
     background-image: url("../../assets/profile_mobile.png")
+  }
+}
+
+@media (max-width: 450px) {
+  .welcome {
+    background-image: url("../../assets/profile_mini.png")
   }
 }
