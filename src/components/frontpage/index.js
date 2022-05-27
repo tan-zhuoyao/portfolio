@@ -1,8 +1,13 @@
+import NavBar from "../navbar";
+import Welcome from "../welcome";
+
 const FrontPage = () => {
   return (
-    <div className="h-44 bg-blue-90">
+    <div class="bg-black h-screen">
+      <NavBar />
+      <Welcome />
     </div>
-  )
-};
+  );
+}
 
 export default FrontPage;
