@@ -1,11 +1,9 @@
 import './App.css';
-import NavBar from './components/navbar';
 import FrontPage from './components/frontpage';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
+    <div class="relative">
       <FrontPage />
     </div>
   );
