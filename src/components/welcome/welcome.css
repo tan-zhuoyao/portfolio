@@ -1,0 +1,10 @@
+.welcome {
+  background-image: url("../../assets/profile.png")
+}
+
+/* mobile view */
+@media (max-width: 760px) {
+  .welcome {
+    background-image: url("../../assets/profile_mobile.png")
+  }
+}
