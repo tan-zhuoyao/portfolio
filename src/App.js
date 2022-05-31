@@ -9,7 +9,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route exact path='/' element={<FrontPage />} />
+          <Route exact path='/portfolio' element={<FrontPage />} />
         </Routes>
       </Router>
     </div>
