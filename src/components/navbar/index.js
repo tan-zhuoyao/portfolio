@@ -20,7 +20,7 @@ const NavBar = () => {
               </svg>
             </button>
           </div>
-          <MobileMenu />
+          <MobileMenu func={toggleMenu} />
         </div> :
         <div className="text-5xl bg-black h-16 text-white mx-auto px-8 py-2 fixed top-0 z-50 w-screen flex justify-between">
           <HashLink smooth to='/#' className="font-sans text-4xl font-bold">
