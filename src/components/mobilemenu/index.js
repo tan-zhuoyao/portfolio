@@ -1,37 +1,27 @@
-const MobileMenu = () => {
+import { HashLink } from "react-router-hash-link";
+
+const MobileMenu = (props) => {
   return (
     <div className="flex-col space-y-4">
       <div className="text-center">
-        <a
-          href="/"
-          className="text-4xl"
-        >
+        <HashLink smooth to='/#about' className="text-4xl" onClick={props.func}>
           About
-        </a>
+        </HashLink>
       </div>
       <div className="text-center">
-        <a
-          href="/"
-          className="text-4xl"
-        >
+        <HashLink smooth to='/#projects' className="text-4xl" onClick={props.func}>
           Projects
-        </a>
+        </HashLink>
       </div>
       <div className="text-center">
-        <a
-          href="/"
-          className="text-4xl"
-        >
+        <HashLink smooth to='/#education' className="text-4xl" onClick={props.func}>
           Education
-        </a>
+        </HashLink>
       </div>
       <div className="text-center">
-        <a
-          href="/"
-          className="text-4xl"
-        >
+        <HashLink smooth to='/#contactMe' className="text-4xl" onClick={props.func}>
           Contact Me
-        </a>
+        </HashLink>
       </div>
     </div>
   );
