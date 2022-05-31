@@ -23,20 +23,20 @@ const NavBar = () => {
           <MobileMenu func={toggleMenu} />
         </div> :
         <div className="text-5xl bg-black h-16 text-white mx-auto px-8 py-2 fixed top-0 z-50 w-screen flex justify-between">
-          <HashLink smooth to='/#' className="font-sans text-4xl font-bold">
+          <HashLink smooth to='/portfolio/#' className="font-sans text-4xl font-bold">
             tzy.
           </HashLink>
           <div className="flex items-center space-x-4 mobile:hidden">
-            <HashLink smooth to='/#about' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#about' className="text-2xl tablet:text-xl">
               About
             </HashLink>
-            <HashLink smooth to='/#projects' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#projects' className="text-2xl tablet:text-xl">
               Projects
             </HashLink>
-            <HashLink smooth to='/#education' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#education' className="text-2xl tablet:text-xl">
               Education
             </HashLink>
-            <HashLink smooth to='/#contactMe' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#contactMe' className="text-2xl tablet:text-xl">
               Contact Me
             </HashLink>
           </div>
