@@ -1,12 +1,17 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FrontPage from './components/frontpage';
-import About from './components/about';
+import NavBar from './components/navbar';
 
 function App() {
   return (
-    <div class="relative">
-      <FrontPage />
-      <About />
+    <div className="relative">
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path='/' element={<FrontPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

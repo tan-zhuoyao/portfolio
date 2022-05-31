@@ -1,11 +1,17 @@
-import NavBar from "../navbar";
 import Welcome from "../welcome";
+import About from "../about";
+import Projects from "../projects";
+import Education from "../education";
+import ContactMe from "../contact";
 
 const FrontPage = () => {
   return (
-    <div class="bg-black h-screen">
-      <NavBar />
+    <div className="bg-black h-screen">
       <Welcome />
+      <About />
+      <Projects />
+      <Education />
+      <ContactMe />
     </div>
   );
 }
