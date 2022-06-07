@@ -14,8 +14,8 @@ const Experience = () => {
           <div id="section">
             <div id="bead"></div>
             <div id="content">
-              <div className='flex'>
-                <img className="h-20 w-20 m-auto ml-0 mr-2" src={JPMC} alt=""></img>
+              <div className='flex mobile:flex-col'>
+                <img className="h-20 w-20 m-auto ml-0 mr-2 mobile:mb-2" src={JPMC} alt=""></img>
                 <div>
                   <div className='text-3xl font-medium mobile:text-2xl'>
                     JPMorgan Chase & Co.
@@ -32,8 +32,8 @@ const Experience = () => {
             </div>
 
             <div id="content">
-              <div className='flex'>
-                <img className="h-20 w-20 m-auto ml-0 mr-2" src={UNC} alt=""></img>
+              <div className='flex mobile:flex-col'>
+                <img className="h-20 w-20 m-auto ml-0 mr-2 mobile:mb-2" src={UNC} alt=""></img>
                 <div>
                   <div className='text-3xl font-medium mobile:text-2xl'>
                     University of North Carolina Chapel Hill
@@ -52,8 +52,8 @@ const Experience = () => {
             </div>
 
             <div id="content">
-              <div className='flex'>
-                <img className="h-20 w-20 m-auto ml-0 mr-2" src={Switcheo} alt=""></img>
+              <div className='flex mobile:flex-col'>
+                <img className="h-20 w-20 m-auto ml-0 mr-2 mobile:mb-2" src={Switcheo} alt=""></img>
                 <div>
                   <div className='text-3xl font-medium mobile:text-2xl'>
                     Switcheo Labs
@@ -72,8 +72,8 @@ const Experience = () => {
             </div>
 
             <div id="content">
-              <div className='flex'>
-                <img className="h-20 w-20 m-auto ml-0 mr-2" src={JaneStreet} alt=""></img>
+              <div className='flex mobile:flex-col'>
+                <img className="h-20 w-20 m-auto ml-0 mr-2 mobile:mb-2" src={JaneStreet} alt=""></img>
                 <div>
                   <div className='text-3xl font-medium mobile:text-2xl'>
                     Jane Street Capital
@@ -90,8 +90,8 @@ const Experience = () => {
             </div>
 
             <div id="content">
-              <div className='flex'>
-                <img className='h-20 w-20 m-auto ml-0 mr-2' src={NUS} alt=''></img>
+              <div className='flex mobile:flex-col'>
+                <img className='h-20 w-20 m-auto ml-0 mr-2 mobile:mb-2' src={NUS} alt=''></img>
                 <div>
                   <div className='text-3xl font-medium mobile:text-2xl'>
                     National University of Singapore
