@@ -2,13 +2,12 @@
   padding: 2rem;
   padding-bottom: 10px;
   padding-top: 0px;
-  margin: 0 10rem;
-  max-width: 1000px;
+  padding-left: 10rem;
 }
 
 @media (max-width: 1160px) {
   .container {
-    margin: 0 1rem;
+    padding-left: 5rem;
   }
 }
 
