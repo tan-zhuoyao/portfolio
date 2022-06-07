@@ -12,11 +12,6 @@ const MobileMenu = (props) => {
       </div>
       <div className="flex-col space-y-4">
         <div className="text-center">
-          <HashLink smooth to='/portfolio/#' className="text-4xl" onClick={props.toggleMenu}>
-            Home
-          </HashLink>
-        </div>
-        <div className="text-center">
           <HashLink smooth to='/portfolio/#about' className="text-4xl" onClick={props.toggleMenu}>
             About
           </HashLink>
