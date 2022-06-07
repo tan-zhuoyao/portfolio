@@ -32,11 +32,6 @@ const MobileMenu = (props) => {
           </HashLink>
         </div>
         <div className="text-center">
-          <HashLink smooth to='/portfolio/#education' className="text-4xl" onClick={props.toggleMenu}>
-            Education
-          </HashLink>
-        </div>
-        <div className="text-center">
           <HashLink smooth to='/portfolio/#contactMe' className="text-4xl" onClick={props.toggleMenu}>
             Contact Me
           </HashLink>
