@@ -1,0 +1,46 @@
+.container {
+  padding: 2rem;
+  padding-bottom: 400px;
+  padding-top: 0px;
+  margin: 0 10rem;
+  max-width: 1000px;
+}
+
+@media (max-width: 1160px) {
+  .container {
+    margin: 0 1rem;
+  }
+}
+
+.timeline {
+  position: relative;
+  min-height: 150px;
+}
+
+.line {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  width: 2px;
+  top: -50px;
+  bottom: -50px;
+  background-color: #FFF;
+}
+
+.line:before,
+.line:after {
+  color: #FFF;
+  position: absolute;
+  display: block;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#content {
+  margin: 10rem 2rem;
+}
