@@ -41,6 +41,10 @@
   transform: translateX(-50%);
 }
 
+.line:after {
+  bottom: 0px;
+}
+
 #content {
   margin: 10rem 2rem;
 }
