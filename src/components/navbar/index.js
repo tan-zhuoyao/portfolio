@@ -21,6 +21,9 @@ const NavBar = () => {
             <HashLink smooth to='/portfolio/#about' className="text-2xl tablet:text-xl">
               About
             </HashLink>
+            <HashLink smooth to='/portfolio/#experience' className="text-2xl tablet:text-xl">
+              Experience
+            </HashLink>
             <HashLink smooth to='/portfolio/#projects' className="text-2xl tablet:text-xl">
               Projects
             </HashLink>
