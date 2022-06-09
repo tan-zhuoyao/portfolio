@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5801b3bb.css",
-    "main.js": "/portfolio/static/js/main.8e374133.js",
+    "main.css": "/portfolio/static/css/main.fc97355c.css",
+    "main.js": "/portfolio/static/js/main.74652d9a.js",
     "static/js/787.4f77bb38.chunk.js": "/portfolio/static/js/787.4f77bb38.chunk.js",
     "static/media/profile_tablet.png": "/portfolio/static/media/profile_tablet.34d830628a6cc790fb6e.png",
     "static/media/profile.png": "/portfolio/static/media/profile.6fc489de008f6af2f2f9.png",
     "static/media/profile_mobile.png": "/portfolio/static/media/profile_mobile.ad8743d2fd4eb2a4e7b9.png",
     "static/media/about_photo.png": "/portfolio/static/media/about_photo.7b13a247e3b36337c15e.png",
     "static/media/profile_mini.png": "/portfolio/static/media/profile_mini.15196634eaad307be794.png",
+    "static/media/TanZhuoYao_Resume.pdf": "/portfolio/static/media/TanZhuoYao_Resume.408820ef2a0c8dfb5e03.pdf",
     "static/media/janestreet.jpeg": "/portfolio/static/media/janestreet.9757d7e95deee981c5f9.jpeg",
     "static/media/nus.jpeg": "/portfolio/static/media/nus.591f9444eb9856987a38.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.5801b3bb.css.map": "/portfolio/static/css/main.5801b3bb.css.map",
-    "main.8e374133.js.map": "/portfolio/static/js/main.8e374133.js.map",
+    "main.fc97355c.css.map": "/portfolio/static/css/main.fc97355c.css.map",
+    "main.74652d9a.js.map": "/portfolio/static/js/main.74652d9a.js.map",
     "787.4f77bb38.chunk.js.map": "/portfolio/static/js/787.4f77bb38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5801b3bb.css",
-    "static/js/main.8e374133.js"
+    "static/css/main.fc97355c.css",
+    "static/js/main.74652d9a.js"
   ]
 }
