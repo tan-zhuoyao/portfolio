@@ -21,7 +21,7 @@ const Experience = () => {
                     JPMorgan Chase & Co.
                   </div>
                   <div className='text-xl font-medium mobile:text-lg'>Summer Analyst (Software Engineering)</div>
-                  <div className='text-xl font-medium mobile:text-lg'> June 2022 - Present</div>
+                  <div className='text-xl font-medium mobile:text-lg'> June 2022 - August 2022</div>
                 </div>
               </div>
               <ul className="list-disc ml-6 mt-2">
