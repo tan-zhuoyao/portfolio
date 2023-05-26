@@ -18,16 +18,16 @@ const NavBar = () => {
             tzy.
           </HashLink>
           <div className="flex items-center space-x-4 mobile:hidden">
-            <HashLink smooth to='/portfolio/#about' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#about' className="text-2xl tablet:text-xl hover:text-cyan-400">
               About
             </HashLink>
-            <HashLink smooth to='/portfolio/#experience' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#experience' className="text-2xl tablet:text-xl hover:text-cyan-400">
               Experience
             </HashLink>
-            <HashLink smooth to='/portfolio/#projects' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#projects' className="text-2xl tablet:text-xl hover:text-cyan-400">
               Projects
             </HashLink>
-            <HashLink smooth to='/portfolio/#contactMe' className="text-2xl tablet:text-xl">
+            <HashLink smooth to='/portfolio/#contactMe' className="text-2xl tablet:text-xl hover:text-cyan-400">
               Contact Me
             </HashLink>
           </div>

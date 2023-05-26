@@ -42,7 +42,7 @@ const Experience = () => {
                   <div className='text-xl font-medium mobile:text-lg'>Jan 2022 - May 2022 (Spring '22)</div>
                 </div>
               </div>
-              <ul className="list-disc ml-6 mt-2">
+              <ul className="list-disc ml-6 mt-2 max-w-3xl">
                 <li>Relevant Coursework taken:</li>
                 <li className='ml-9'>COMP550: Algorithms & Analysis (A)</li>
                 <li className='ml-9'>COMP562: Theory of Machine Learning (A)</li>
@@ -62,7 +62,7 @@ const Experience = () => {
                   <div className='text-xl font-medium mobile:text-lg'>June 2021 - Dec 2021</div>
                 </div>
               </div>
-              <ul className="list-disc ml-6 mt-2">
+              <ul className="list-disc ml-6 mt-2 max-w-3xl">
                 <li>Designed and implemented the persistence of off-chain trade and ordering data into various databases to reduce SQL calls and enhance speed.</li>
                 <li>Migrated and restructured Switcheo Tradehub's blockchain codebase to support the Cosmos Stargate upgrade, to optimise for cross-chain interoperability.</li>
                 <li>Conceptualised the development and deployment of Scilla Smart Contracts onto Zilliqa blockchain to facilitate minting and trading of 10,000 Non-Fungible Tokens (NFT). Tested thoroughly and prevented potential contract exploits. The contract handled $2.1 million in transactions over a span of 3 days.</li>
@@ -82,7 +82,7 @@ const Experience = () => {
                   <div className='text-xl font-medium mobile:text-lg'>Oct 2020</div>
                 </div>
               </div>
-              <ul className='list-disc ml-6 mt-2'>
+              <ul className='list-disc ml-6 mt-2 max-w-3xl'>
                 <li>Participated and won the Jane Street Electronic Trading Competition where my team had to design and implement trading algorithms to execute trades on a simulated market.
                   We were tasked to trade bonds, stocks, ETFs and ADRs</li>
                 <li>Emerged overall 1st place with our team’s trading bot being the most profitable.</li>
@@ -100,7 +100,7 @@ const Experience = () => {
                   <div className='text-xl font-medium mobile:text-lg'>May 2019 - Present (Expected Graduation: May 2023)</div>
                 </div>
               </div>
-              <ul className='list-disc ml-6 mt-2'>
+              <ul className='list-disc ml-6 mt-2 max-w-3xl'>
                 <li>Computer Science major with a minor in Statistics</li>
                 <li>Expecting to graduate with First Class Honors</li>
                 <li>Current CAP: 4.61/5.00</li>

@@ -1,3 +1,5 @@
+import pdf from "../../assets/SPA.pdf";
+
 const Projects = () => {
   return (
     <div id="projects" className="bg-black text-white font-sans text-5xl font-bold">
@@ -5,7 +7,19 @@ const Projects = () => {
       <div className="pl-10 sticky top-16 bg-black">
         PROJECTS
       </div>
-      <div className="ml-10 mt-10 mr-10 p-10 pr-40 mobile:pr-0 mobile:p-0">
+      <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
+        <div className="text-3xl font-semibold">
+          Static Program Analyzer (SPA) for SIMPLE code
+        </div>
+        <div className="text-xl">Aug 2022 - Nov 2022</div>
+        <ul className="list-disc ml-6 mt-2 font-normal text-base">
+          <li>Worked with a team of 6 to implement a static program analyzer written in C++ from scratch.</li>
+          <li>Wrote over 400 system tests, 230 unit tests and 70 integration tests that have been automated with power shell scripts.</li>
+          <li>Set up GitHub Actions to ensure all test cases pass before PR merged</li>
+          <li>SPA design report: <a className="text-cyan-500 underline hover:text-cyan-200" href={pdf} download="SPA.pdf">here</a></li>
+        </ul>
+      </div>
+      <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
         <div className="text-3xl font-semibold">
           The Bear Market Non-Fungible Token
         </div>
@@ -19,7 +33,7 @@ const Projects = () => {
           <li>NFT Smart Contract: <a className="text-cyan-500 underline hover:text-cyan-200" href="https://viewblock.io/zilliqa/address/zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e">here</a></li>
         </ul>
       </div>
-      <div className="ml-10 mt-10 mr-10 p-10 pr-40 mobile:pr-0 mobile:p-0">
+      <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
         <div className="text-3xl font-semibold">
           SWEe! Flashcard Application
         </div>
@@ -30,7 +44,7 @@ const Projects = () => {
           <li>Documented the software implementations in a User Guide and Developer guide</li>
         </ul>
       </div>
-      <div className="ml-10 mt-10 mr-10 p-10 pr-40 mobile:pr-0 mobile:p-0">
+      <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
         <div className="text-3xl font-semibold">
           SkyX
         </div>

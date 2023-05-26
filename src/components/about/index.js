@@ -13,9 +13,13 @@ const About = () => {
         </div>
         <div className="w-1/2 grid place-content-center tablet:w-screen">
           <div className="text-2xl font-medium p-20">
-            I am a final-year Computer Science major at the National University of Singapore, with a minor in statistics.
-            My area of interests are FinTech, Blockchain Technology, Machine Learning and Data Science. Besides college,
-            I also run a tutoring business on the side where I conduct Math classes for students aged between 7 to 18.
+            I am a Computer Science graduate from the National University of Singapore, with a minor in statistics.
+            My area of interests are FinTech, Blockchain Technology, Machine Learning and Data Science.
+            <br />
+            <br />
+            I am actively seeking a role as a software engineer to apply my technical skills and knowledge in these areas to develop innovative software solutions. 
+            I am eager to contribute to a dynamic team and work on projects that involve cutting-edge technologies and have a positive impact on various industries. 
+            Feel free to reach out to me for opportunities!
           </div>
         </div>
       </div>
