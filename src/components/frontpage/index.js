@@ -4,14 +4,14 @@ import Projects from "../projects";
 import ContactMe from "../contact";
 import Experience from "../experience";
 
-const FrontPage = () => {
+const FrontPage = (props) => {
   return (
     <div className="bg-black h-screen">
       <Welcome />
       <About />
       <Experience />
       <Projects />
-      <ContactMe />
+      <ContactMe isDarkEnabled={props.isDarkEnabled} />
     </div>
   );
 }

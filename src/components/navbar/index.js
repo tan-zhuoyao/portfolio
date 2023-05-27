@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import MobileMenu from "../mobilemenu";
-import ThemeToggle from "./toggle";
+import ThemeToggle from "../themetoggle";
 
-const NavBar = () => {
+const NavBar = (props) => {
+  const {isDarkEnabled, setIsDarkEnabled} = props;
   const toggleMenu = () => {
     setMobileMenu(!mobileMenu);
   };
@@ -13,7 +14,7 @@ const NavBar = () => {
   return (
     <div>
       {mobileMenu ?
-        <MobileMenu toggleMenu={toggleMenu} /> :
+        <MobileMenu toggleMenu={toggleMenu} isDarkEnabled={isDarkEnabled} setIsDarkEnabled={setIsDarkEnabled}/> :
         <div className="text-5xl bg-white dark:bg-black h-16 text-white mx-auto px-8 py-2 fixed top-0 z-50 w-screen flex justify-between">
           <HashLink smooth to='/portfolio/#' className="text-black dark:text-white font-sans text-4xl font-bold">
             tzy.
@@ -31,18 +32,26 @@ const NavBar = () => {
             <HashLink smooth to='/portfolio/#contactMe' className="text-black dark:text-white text-2xl tablet:text-xl hover:underline hover:underline-offset-4">
               Contact Me
             </HashLink>
-            <ThemeToggle className="h-1"/>
+            <ThemeToggle className="h-1" isDarkEnabled={isDarkEnabled} setIsDarkEnabled={setIsDarkEnabled}/>
           </div>
           <div className="hidden mobile:flex">
             <button className="outline-none mobile-menu-button" onClick={toggleMenu}>
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {!isDarkEnabled && <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="black" viewBox="0 0 24 24" stroke="black">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d="M4 6h16M4 12h16M4 18h16"
                 />
-              </svg>
+              </svg>}
+              {isDarkEnabled && <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="white" viewBox="0 0 24 24" stroke="white">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>}
             </button>
           </div>
         </div>

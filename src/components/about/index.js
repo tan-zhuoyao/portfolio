@@ -1,5 +1,3 @@
-import Photo from "../../assets/about_photo.png"
-
 const About = () => {
   return (
     <div id="about" className="bg-white dark:bg-black text-white font-sans flex-col">
@@ -8,10 +6,7 @@ const About = () => {
         ABOUT
       </div>
       <div className="flex tablet:flex-col">
-        <div className="w-1/2 m-auto tablet:w-screen p-20 tablet:pb-0">
-          <img className="w-3/4 m-auto mt-auto mb-auto rounded-lg" src={Photo} alt="" />
-        </div>
-        <div className="w-1/2 grid place-content-center tablet:w-screen">
+        <div className="grid place-content-center tablet:w-screen">
           <div className="text-black dark:text-white text-2xl font-medium p-20">
             I am a Computer Science graduate from the National University of Singapore, with a minor in statistics.
             My area of interests are FinTech, Blockchain Technology, Machine Learning and Data Science.

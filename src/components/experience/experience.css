@@ -81,6 +81,67 @@
   top: 92.3%;
 }
 
+@media (max-width: 1160px) {
+  #point1 {
+    top: 1.2%;
+  }
+
+  #point2 {
+    top: 16.8%;
+  }
+
+  #point3 {
+    top: 36.8%;
+  }
+
+  #point4 {
+    top: 69.1%;
+  }
+
+  #point5 {
+    top: 88.7%;
+  }
+
+  #linebefore {
+  top: -2.5%;
+}
+
+  #lineafter {
+    top: 101.8%;
+  }
+}
+
+@media (max-width: 460px) {
+  #point1 {
+    top: 1.2%;
+  }
+
+  #point2 {
+    top: 17%;
+  }
+
+  #point3 {
+    top: 36.2%;
+  }
+
+  #point4 {
+    top: 67.7%;
+  }
+
+  #point5 {
+    top: 89.3%;
+  }
+
+  #linebefore {
+  top: -2.2%;
+}
+
+  #lineafter {
+    top: 101.5%;
+  }
+}
+
+
 #content {
   margin: 10rem 2rem 5rem 2rem;
 }
