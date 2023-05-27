@@ -2,9 +2,9 @@ import Photo from "../../assets/about_photo.png"
 
 const About = () => {
   return (
-    <div id="about" className="bg-black text-white font-sans flex-col">
+    <div id="about" className="bg-white dark:bg-black text-white font-sans flex-col">
       <div className="h-16"></div>
-      <div className="pl-10 sticky top-16 bg-black text-5xl font-bold pb-2">
+      <div className="pl-10 sticky top-16 text-black bg-white dark:bg-black dark:text-white text-5xl font-bold pb-2">
         ABOUT
       </div>
       <div className="flex tablet:flex-col">
@@ -12,7 +12,7 @@ const About = () => {
           <img className="w-3/4 m-auto mt-auto mb-auto rounded-lg" src={Photo} alt="" />
         </div>
         <div className="w-1/2 grid place-content-center tablet:w-screen">
-          <div className="text-2xl font-medium p-20">
+          <div className="text-black dark:text-white text-2xl font-medium p-20">
             I am a Computer Science graduate from the National University of Singapore, with a minor in statistics.
             My area of interests are FinTech, Blockchain Technology, Machine Learning and Data Science.
             <br />

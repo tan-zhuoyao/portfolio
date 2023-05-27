@@ -22,32 +22,63 @@
   min-height: 150px;
 }
 
-.line {
+#line {
   position: absolute;
   z-index: 2;
   left: 0px;
   width: 2px;
   top: -50px;
   bottom: -50px;
-  background-color: #FFF;
 }
 
-.line:before,
-.line:after {
-  color: #FFF;
+.mainpoint {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  left: 0.1%;
+  transform: translateX(-50%);
+}
+
+.point {
   position: absolute;
   display: block;
   content: '';
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
-  background-color: #FFF;
-  left: 50%;
+  left: 0.1%;
   transform: translateX(-50%);
 }
 
-.line:after {
-  bottom: 0px;
+#linebefore {
+  top: -3.5%;
+}
+
+#lineafter {
+  top: 103%;
+}
+
+#point1 {
+  top: 2.3%;
+}
+
+#point2 {
+  top: 20.5%;
+}
+
+#point3 {
+  top: 43%;
+}
+
+#point4 {
+  top: 71%;
+}
+
+#point5 {
+  top: 92.3%;
 }
 
 #content {

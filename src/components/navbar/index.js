@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import MobileMenu from "../mobilemenu";
+import ThemeToggle from "./toggle";
 
 const NavBar = () => {
   const toggleMenu = () => {
@@ -13,23 +14,24 @@ const NavBar = () => {
     <div>
       {mobileMenu ?
         <MobileMenu toggleMenu={toggleMenu} /> :
-        <div className="text-5xl bg-black h-16 text-white mx-auto px-8 py-2 fixed top-0 z-50 w-screen flex justify-between">
-          <HashLink smooth to='/portfolio/#' className="font-sans text-4xl font-bold">
+        <div className="text-5xl bg-white dark:bg-black h-16 text-white mx-auto px-8 py-2 fixed top-0 z-50 w-screen flex justify-between">
+          <HashLink smooth to='/portfolio/#' className="text-black dark:text-white font-sans text-4xl font-bold">
             tzy.
           </HashLink>
-          <div className="flex items-center space-x-4 mobile:hidden">
-            <HashLink smooth to='/portfolio/#about' className="text-2xl tablet:text-xl hover:text-cyan-400">
+          <div className="flex items-center space-x-6 mobile:hidden">
+            <HashLink smooth to='/portfolio/#about' className="text-black dark:text-white text-2xl tablet:text-xl hover:underline hover:underline-offset-4">
               About
             </HashLink>
-            <HashLink smooth to='/portfolio/#experience' className="text-2xl tablet:text-xl hover:text-cyan-400">
+            <HashLink smooth to='/portfolio/#experience' className="text-black dark:text-white text-2xl tablet:text-xl hover:underline hover:underline-offset-4">
               Experience
             </HashLink>
-            <HashLink smooth to='/portfolio/#projects' className="text-2xl tablet:text-xl hover:text-cyan-400">
+            <HashLink smooth to='/portfolio/#projects' className="text-black dark:text-white text-2xl tablet:text-xl hover:underline hover:underline-offset-4">
               Projects
             </HashLink>
-            <HashLink smooth to='/portfolio/#contactMe' className="text-2xl tablet:text-xl hover:text-cyan-400">
+            <HashLink smooth to='/portfolio/#contactMe' className="text-black dark:text-white text-2xl tablet:text-xl hover:underline hover:underline-offset-4">
               Contact Me
             </HashLink>
+            <ThemeToggle className="h-1"/>
           </div>
           <div className="hidden mobile:flex">
             <button className="outline-none mobile-menu-button" onClick={toggleMenu}>

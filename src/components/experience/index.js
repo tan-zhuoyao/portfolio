@@ -3,14 +3,21 @@ import { JPMC, UNC, NUS, Switcheo, JaneStreet } from '../../assets';
 
 const Experience = () => {
   return (
-    <div id="experience" className="bg-black text-white font-sans flex-col w-screen">
+    <div id="experience" className="bg-white text-black dark:bg-black dark:text-white font-sans flex-col w-screen">
       <div className="h-16"></div>
-      <div className="pl-10 sticky top-16 bg-black text-5xl font-bold pb-2 z-10">
+      <div className="pl-10 sticky top-16 bg-white text-black dark:bg-black dark:text-white text-5xl font-bold pb-2 z-10">
         EXPERIENCE
       </div>
       <div className="container">
         <div className="timeline">
-          <div className="line"></div>
+          <div id="linebefore" className='mainpoint bg-black dark:bg-white'></div>
+          <div id="point1" className='point bg-black dark:bg-white'></div>
+          <div id="point2" className='point bg-black dark:bg-white'></div>
+          <div id="point3" className='point bg-black dark:bg-white'></div>
+          <div id="point4" className='point bg-black dark:bg-white'></div>
+          <div id="point5" className='point bg-black dark:bg-white'></div>
+          <div id="lineafter" className='mainpoint bg-black dark:bg-white'></div>
+          <div id="line" className="bg-black dark:bg-white"></div>
           <div id="section">
             <div id="bead"></div>
             <div id="content">
@@ -97,7 +104,7 @@ const Experience = () => {
                     National University of Singapore
                   </div>
                   <div className='text-xl font-medium mobile:text-lg'>Student</div>
-                  <div className='text-xl font-medium mobile:text-lg'>May 2019 - Present (Expected Graduation: May 2023)</div>
+                  <div className='text-xl font-medium mobile:text-lg'>May 2019 - May 2023</div>
                 </div>
               </div>
               <ul className='list-disc ml-6 mt-2 max-w-3xl'>

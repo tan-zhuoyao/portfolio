@@ -2,9 +2,9 @@ import pdf from "../../assets/SPA.pdf";
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-black text-white font-sans text-5xl font-bold">
+    <div id="projects" className="bg-white text-black dark:bg-black dark:text-white font-sans text-5xl font-bold">
       <div className="h-16"></div>
-      <div className="pl-10 sticky top-16 bg-black">
+      <div className="pl-10 sticky top-16 bg-white text-black dark:bg-black dark:text-white">
         PROJECTS
       </div>
       <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
@@ -29,8 +29,8 @@ const Projects = () => {
           <li>Implemented a backend API server to handle NFT data and support GET and POST requests from frontend side.</li>
           <li>Collaborated with Product and Design professionals to implement a seamless web application for purchase and
             revealing of Non-Fungible Tokens (NFT)</li>
-          <li>Web Application: <a className="text-cyan-500 underline hover:text-cyan-200" href="https://thebear.market">https://thebear.market</a></li>
-          <li>NFT Smart Contract: <a className="text-cyan-500 underline hover:text-cyan-200" href="https://viewblock.io/zilliqa/address/zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e">here</a></li>
+          <li>Web Application: <a className="text-cyan-500 underline hover:text-cyan-200" href="https://thebear.market" target="_blank" rel="noopener noreferrer">https://thebear.market</a></li>
+          <li>NFT Smart Contract: <a className="text-cyan-500 underline hover:text-cyan-200" href="https://viewblock.io/zilliqa/address/zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e" target="_blank" rel="noopener noreferrer">here</a></li>
         </ul>
       </div>
       <div className="ml-10 mt-10 mr-10 p-10 pr-40 max-w-5xl mobile:pr-0 mobile:p-0">
