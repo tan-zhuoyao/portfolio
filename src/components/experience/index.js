@@ -11,11 +11,6 @@ const Experience = () => {
       <div className="container">
         <div className="timeline">
           <div id="linebefore" className='mainpoint bg-black dark:bg-white'></div>
-          <div id="point1" className='point bg-black dark:bg-white'></div>
-          <div id="point2" className='point bg-black dark:bg-white'></div>
-          <div id="point3" className='point bg-black dark:bg-white'></div>
-          <div id="point4" className='point bg-black dark:bg-white'></div>
-          <div id="point5" className='point bg-black dark:bg-white'></div>
           <div id="lineafter" className='mainpoint bg-black dark:bg-white'></div>
           <div id="line" className="bg-black dark:bg-white"></div>
           <div id="section">
@@ -33,9 +28,10 @@ const Experience = () => {
               </div>
               <ul className="list-disc ml-6 mt-2">
                 <li>Corporate & Investment Banking Division</li>
-                <li>Regulatory Reporting</li>
+                <li>Designed and developed a backend service for archiving regulatory reports</li>
+                <li>Tech Stack: Spring Boot, MySQL, Google Cloud Platform (GCP)</li>
+                <li>Languages used: Java</li>
               </ul>
-
             </div>
 
             <div id="content">
@@ -109,8 +105,8 @@ const Experience = () => {
               </div>
               <ul className='list-disc ml-6 mt-2 max-w-3xl'>
                 <li>Computer Science major with a minor in Statistics</li>
-                <li>Expecting to graduate with First Class Honors</li>
-                <li>Current CAP: 4.61/5.00</li>
+                <li>Graduated with First Class Honors</li>
+                <li>CAP: 4.62/5.00</li>
               </ul>
             </div>
           </div>

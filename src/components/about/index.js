@@ -7,7 +7,7 @@ const About = () => {
       </div>
       <div className="flex tablet:flex-col">
         <div className="grid place-content-center tablet:w-screen">
-          <div className="text-black dark:text-white text-2xl font-medium p-20">
+          <div className="text-black dark:text-white text-2xl font-medium p-40 mobile:p-20">
             I am a Computer Science graduate from the National University of Singapore, with a minor in statistics.
             My area of interests are FinTech, Blockchain Technology, Machine Learning and Data Science.
             <br />
